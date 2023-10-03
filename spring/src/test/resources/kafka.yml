@@ -1,0 +1,9 @@
+kafka:
+  enable: true
+  bootstraps:
+    local: &local localhost:9092
+  topics:
+    test-topic:
+      name: test-topic-1
+      bootstrap: *local
+

@@ -1,0 +1,9 @@
+plugins {
+    id 'jvm-polyglot.spring'
+    id "io.freefair.lombok" version "8.3"
+}
+
+dependencies {
+    implementation 'org.springframework.kafka:spring-kafka'
+    testImplementation 'org.springframework.kafka:spring-kafka-test'
+}
